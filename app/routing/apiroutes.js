@@ -22,13 +22,18 @@ router.get("/api/friends", function(req, res, err) {
     if(err) {
       console.log(err);
     }
-    // fs.readFile("./app/data/friends.js", "utf8",  function(err, data) {
-
-    console.log("api" + friends);
-
     return res.json(friends);
-
-  // })
 });
+
+router.post("/api/friends", function(req, res) {
+  var newFriend = req.body;
+  newFriend.routeName = newFriend.name.replace(/\s+/g, "").toLowerCase();
+
+  console.log(newFriend);
+
+  friends.push(newFriend);
+
+  res.json(newFriend);
+})
 
 module.exports = router;
