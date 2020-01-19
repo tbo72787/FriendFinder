@@ -31,9 +31,23 @@ router.post("/api/friends", function(req, res) {
 
   console.log(newFriend);
 
+  for(var i = 0; i < friends.length; i++) {
+    var scoreArr = [];
+    var addScore = friends[i].scores;
+    scoreArr.push(addScore);
+    console.log(scoreArr);
+    for(var j = 0; j < scoreArr; j ++) {
+      var diff1 = abs(newFriend.scores[0] - scoreArr[j[0]]);
+      console.log(diff1);
+      // somehow find absolute value of differences and compare them, 
+      // then make a module for it and display best match. I'm out of time...
+    }
+  }
+
   friends.push(newFriend);
 
   res.json(newFriend);
+
 })
 
 module.exports = router;
