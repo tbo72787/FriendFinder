@@ -1,0 +1,33 @@
+# FriendFinder ![language](https://img.shields.io/badge/language-javascript-blue.svg)
+
+> This app takes your answers to ten personality questions, compares them to a database of answers, and returns your best personality match.
+
+## :books: Table of Contents
+
+- [Installation](#package-installation)
+- [Usage](#rocket-usage)
+- [Support](#hammer_and_wrench-support)
+- [Contributing](#memo-contributing)
+- [License](#scroll-license)
+
+## :package: Installation
+
+```sh
+```
+
+## :rocket: Usage
+
+```sh
+```
+
+## :hammer_and_wrench: Support
+
+Please [open an issue](https://github.com/tbo72787/FriendFinder/issues/new) for support.
+
+## :memo: Contributing
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/tbo72787/FriendFinder/compare/).
+
+## :scroll: License
+
+[MIT](LICENSE) © [Taylor Zettel](https://github.com/tbo72787)
